@@ -1,0 +1,4 @@
+Hello, World!
+This is a simple text file.
+It has several lines.
+Python will read me!

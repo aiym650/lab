@@ -1,6 +1,6 @@
 import os
 
-path = 'testfile.txt'
+path = 'task1.py'
 
 print("Exists:", os.path.exists(path))   
 print("Readable:", os.access(path, os.R_OK))  

@@ -23,7 +23,7 @@ bg_img = pygame.image.load("images/AnimatedStreet.png")
 player_img = pygame.image.load("images/Player.png")
 enemy_img = pygame.image.load("images/Enemy.png")
 coin_img_original = pygame.image.load("images/coin.png")
-coin_img = pygame.transform.scale(coin_img_original, (30, 30))  # Монетаны кішірейту
+coin_img = pygame.transform.scale(coin_img_original, (30, 30))
 
 # bg animation
 bg_y1 = 0
@@ -77,7 +77,7 @@ coins = pygame.sprite.Group()
 player = Player()
 all_sprites.add(player)
 
-# Enemy 
+# Enemy number
 enemy = Enemy()
 all_sprites.add(enemy)
 enemies.add(enemy)
